@@ -3,7 +3,7 @@ const https = require("https");
 const app = express();
 const PORT = 3000;
 
-const ACCESS_TOKEN = (process.env.WHATSAPP_TOKEN || 'whatsapp-placeholder');
+const ACCESS_TOKEN = ('EAAKB3HOYzB4BPEXWp73J5ettRroctFdtTvVdWz7buEEYCy3OejsljWLoIdymHnONnACuNKaTFxofz38p9qe2sZCZA0pJ0tupDj10V6p10txmKvFbkAiGXYaYzP492TDAMjIHoOqawnNv2LMUdXnMascB0UUrc2FZBt7xZBjKR9BirgZAFltsOWFNmbnMJoB1mEx0Gyxqa31PslcZBJK4WSDfAuvXw6BZAzJlucSPgK4YpUZD');
 const PHONE_NUMBER_ID = "726591527199931";
 const OPENAI_API_KEY = (process.env.OPENAI_API_KEY || 'sk-placeholder');
 
