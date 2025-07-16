@@ -3,9 +3,9 @@ const https = require("https");
 const app = express();
 const PORT = 3000;
 
-const ACCESS_TOKEN = ""process.env.WHATSAPP_TOKEN || 'whatsapp-placeholder'"";
+const ACCESS_TOKEN = (process.env.WHATSAPP_TOKEN || 'whatsapp-placeholder');
 const PHONE_NUMBER_ID = "726591527199931";
-const OPENAI_API_KEY = ""process.env.OPENAI_API_KEY || 'sk-placeholder'"";
+const OPENAI_API_KEY = (process.env.OPENAI_API_KEY || 'sk-placeholder');
 
 app.use(express.json());
 
